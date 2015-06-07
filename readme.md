@@ -3,7 +3,7 @@
 This package contains classes for creating a generic deck of playing cards, for use in games or anything else.
 The generic class `DeckOfCards` can be used as the basic building block of a deck of cards. A specific class `FrenchDeckOfCards` is also provided which the French playing cards.
 
-Each `Card` is made from a `Suit` and a `Pip` object which denotes its suit and numeric value, as well as their rank comapred to other cards.
+Each `Card` is made from a `Suit` and a `Pip` object which denotes its suit and numeric value, as well as their rank compared to other cards.
 
 The `HiLowCardGame` is built using a custom sub-class of the `FrenchDeckOfCards` and allows for a simple implementation of the High/Lo 1-player card game.
 By initialising the game using `card_count=True`, game statistics will be reported at each round.
