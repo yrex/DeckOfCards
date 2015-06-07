@@ -1,4 +1,4 @@
-ompiled source #
+Compiled Sources
 ###################
 *.com
 *.class
@@ -39,3 +39,4 @@ Thumbs.db
 # directories #
 ##############
 .idea/
+__pycache__/
